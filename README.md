@@ -4,6 +4,8 @@
 
 Welcome to the Dog Vision Identification project! This project aims to develop a machine learning model for identifying dog breeds from images using TensorFlow and the MobileNetV2 architecture with the Adam optimizer. The objective is to create an accurate model that can recognize various dog breeds, providing insights into dog vision and aiding in applications such as pet care and breed recognition.
 
+**Explore the project directly on Google Colab:** [Dog Vision Identification](https://colab.research.google.com/drive/1vI332JRfo66w7emKpQr9cutqkb9uBW8r?usp=sharing)
+
 ## Project Description
 
 Identifying dog breeds from images involves analyzing visual features specific to each breed. This project leverages deep learning techniques to build a model capable of recognizing and classifying dog breeds based on input images. The utilization of TensorFlow and the MobileNetV2 architecture ensures efficient training and high accuracy in breed identification.
@@ -17,7 +19,7 @@ The model architecture used in this project is based on MobileNetV2, a state-of-
 The dataset used for training and evaluation consists of images of various dog breeds. It is essential to have a diverse and representative dataset to ensure the model's ability to generalize to unseen data effectively. The dataset may include popular dog breeds, rare breeds, and variations in pose, lighting conditions, and backgrounds to enhance the model's robustness.
 
 The data we're using is from Kaggle's Dog Breed Identification Competition. <br>
-Data: https://www.kaggle.com/c/dog-breed-identification/data
+**Data:** https://www.kaggle.com/c/dog-breed-identification/data
 
 ## Data Preprocessing
 
