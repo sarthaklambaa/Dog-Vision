@@ -24,7 +24,7 @@ Data: https://www.kaggle.com/c/dog-breed-identification/data
 Data preprocessing plays a crucial role in preparing the dataset for training. Common preprocessing steps may include:
 - Resizing images to a standard size compatible with the model input.
 - Normalizing pixel values to a common scale (e.g., [0, 1]).
-- Augmenting the dataset with techniques such as rotation, flipping, and color jittering to increase variability and improve model generalization.
+- Augmenting the dataset with techniques such as rotation, flipping, and colour jittering to increase variability and improve model generalization.
 
 ## Training
 
@@ -32,7 +32,7 @@ The model is trained using the TensorFlow framework with the MobileNetV2 archite
 
 ## Evaluation
 
-The trained model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score on a separate validation dataset. These metrics provide insights into the model's ability to correctly classify dog breeds and generalize to unseen data.
+The evaluation involves generating prediction probabilities for each dog breed of each test image. These prediction probabilities can be compared against ground truth labels to assess the model's performance in classifying dog breeds accurately. The evaluation process helps provide insights into its effectiveness in identifying dog breeds from images.
 
 ## Usage
 
