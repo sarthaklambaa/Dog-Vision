@@ -16,6 +16,9 @@ The model architecture used in this project is based on MobileNetV2, a state-of-
 
 The dataset used for training and evaluation consists of images of various dog breeds. It is essential to have a diverse and representative dataset to ensure the model's ability to generalize to unseen data effectively. The dataset may include popular dog breeds, rare breeds, and variations in pose, lighting conditions, and backgrounds to enhance the model's robustness.
 
+The data we're using is from Kaggle's Dog Breed Identification Competition. <br>
+Data: https://www.kaggle.com/c/dog-breed-identification/data
+
 ## Data Preprocessing
 
 Data preprocessing plays a crucial role in preparing the dataset for training. Common preprocessing steps may include:
@@ -37,7 +40,7 @@ To utilize the Dog Vision Identification model, follow these steps:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/dog-vision-identification.git
+   git clone https://github.com/sarthaklambaa/dog-vision-identification.git
    ```
 2. Install the necessary dependencies, including TensorFlow and other required libraries.
 
